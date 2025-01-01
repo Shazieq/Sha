@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-deck, .play-area, .score-board {
+    margin: 10px 0;
+}
+
+.card {
+    width: 2.5in;
+    height: 3.5in;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    margin: 5px;
+}
+
+.prefix { background-color: red; color: white; }
+.root { background-color: blue; color: black; }
+.suffix { background-color: green; color: white; }
+.wildcard { background-color: yellow; color: black; }
